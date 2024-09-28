@@ -1,10 +1,11 @@
-import './App.css';
-import Navbar from './components/navbar.container';
+import About from './components/about.container';
+import NavbarSimple from './components/navbar.container';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
+    <div className="App h-screen bg-[#E9E9FF]">
+      <NavbarSimple/>
+      <About />
     </div>
   );
 }
